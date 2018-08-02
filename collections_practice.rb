@@ -6,3 +6,8 @@ def sort_array_desc(array)
   array.sort! {|x, y| y <=> x}
   return array
 end
+
+def sort_array_char_count(array)
+  array.sort {|left, right left.length <=> right.length}
+  return array
+end
